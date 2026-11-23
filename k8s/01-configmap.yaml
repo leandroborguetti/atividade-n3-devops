@@ -1,0 +1,13 @@
+﻿apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: loja-api-config
+  namespace: n3-leandro
+data:
+  PORT: "3000"
+  APP_VERSION: "1.0"
+  DB_HOST: "mysql"
+  DB_PORT: "3306"
+  DB_NAME: "loja"
+  REDIS_HOST: "redis"
+  REDIS_PORT: "6379"
